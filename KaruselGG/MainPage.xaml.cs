@@ -20,19 +20,17 @@ namespace KaruselGG
                     {
                         new Label
                         {
-                            Text = "Red",
+                            Text = "Качественный ноутбук, который отлично подходит как для работы, так и для развлечений.",
                             FontSize = Device.GetNamedSize (NamedSize.Medium, typeof(Label)),
                             HorizontalOptions = LayoutOptions.Center
                         },
-                        new BoxView
+                        new Image
                         {
-                            Color = Color.Red,
-                            WidthRequest = 200,
-                            HeightRequest = 200,
-                            HorizontalOptions = LayoutOptions.Center,
-                            VerticalOptions = LayoutOptions.CenterAndExpand }
+                            Source = "lenovo1.png"
+                        }
                     }
                 }
+
             };
                  var greenContentPage = new ContentPage
             {
